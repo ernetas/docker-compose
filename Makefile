@@ -30,4 +30,4 @@ build:
 	docker run --rm -v $(CURRENT_DIR):/wd -w /wd -u root:root -ti ernestas/debian-packaging dpkg -c $(NAME)-$(VERSION).deb
 
 release:
-	sudo /usr/sbin/push-deb $(NAME)-$(VERSION).deb
+	push-deb $(NAME)-$(VERSION).deb
