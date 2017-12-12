@@ -1,0 +1,2 @@
+#!/bin/bash
+chown root:root /usr/bin/docker-compose && chmod 755 /usr/bin/docker-compose
