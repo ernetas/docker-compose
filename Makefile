@@ -24,7 +24,7 @@ prepare:
 	chmod +x package/usr/bin/docker-compose
 
 build:
-#	docker pull ernestas/debian-packaging
+	docker pull ernestas/debian-packaging
 	docker run --rm -v $(CURRENT_DIR):/wd -w /wd -u root:root -ti ernestas/debian-packaging dpkg -b ./package/ $(NAME)-$(VERSION).deb
 	docker run --rm -v $(CURRENT_DIR):/wd -w /wd -u root:root -ti ernestas/debian-packaging dpkg --info $(NAME)-$(VERSION).deb
 	docker run --rm -v $(CURRENT_DIR):/wd -w /wd -u root:root -ti ernestas/debian-packaging dpkg -c $(NAME)-$(VERSION).deb

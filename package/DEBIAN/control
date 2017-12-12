@@ -1,5 +1,5 @@
 Package: docker-compose
-Version: version
+Version: 1.17.0-0
 Section: base
 Priority: optional
 Architecture: amd64

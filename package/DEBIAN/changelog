@@ -1,4 +1,4 @@
-docker-compose (version) xenial; urgency=high
+docker-compose (1.17.0-0) xenial; urgency=high
 
   [ Ernestas Lukosevicius ]
   All updates are important! Refer to Docker Compose changelog at https://github.com/docker/compose/blob/master/CHANGELOG.md
@@ -6,3 +6,4 @@ docker-compose (version) xenial; urgency=high
  -- Ernestas Lukosevicius <ernestas@samesystem.com> 
 
 
+ -- Ernestas Lukosevicius <ernestas@samesystem.com> 
