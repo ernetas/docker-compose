@@ -1,6 +1,6 @@
 NAME = docker-compose
 # Major version relates to upstream version of Docker Compose
-MAJOR = 1.23.2
+MAJOR = 1.24.1
 # Minor version is only for versioning this package
 MINOR = 0
 VERSION = $(MAJOR)-$(MINOR)
